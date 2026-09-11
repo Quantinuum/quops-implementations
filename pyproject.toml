@@ -4,10 +4,31 @@ version = "0.1.0"
 requires-python = ">=3.13.7"
 dependencies = [
     "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
     "numpy>=2.5.3",
+]
+
+[dependency-groups]
+guppy = [
+    "guppylang>=1.0.1",
+    "networkx>=3.6.1",
+    "pytket>=2.18.1",
+    "tabulate>=0.10.0",
+]
+
+pytket = [
     "pytket>=2.18.1",
     "pytket-quantinuum[pecos]>=0.59.2",
 ]
 
 [tool.uv]
+package = false
+default-groups = []
 prerelease = "allow"
+
+conflicts = [
+    [
+        { group = "guppy" },
+        { group = "pytket" },
+    ],
+]
