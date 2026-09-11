@@ -29,8 +29,8 @@ help:
 
 setup: kernels
 	@echo "Setup complete."
-	@echo "Select 'QuOps Guppy (Python $(PYTHON_VERSION))' for notebooks under guppy/."
-	@echo "Select 'QuOps Pytket (Python $(PYTHON_VERSION))' for notebooks under pytket/."
+	@echo "Select 'QUOPS Guppy (Python $(PYTHON_VERSION))' for notebooks under guppy/."
+	@echo "Select 'QUOPS pytket (Python $(PYTHON_VERSION))' for notebooks under pytket/."
 
 sync: sync-guppy sync-pytket
 
