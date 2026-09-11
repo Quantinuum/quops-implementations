@@ -1,0 +1,13 @@
+[project]
+name = "quops-implementations"
+version = "0.1.0"
+requires-python = ">=3.13.7"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "numpy>=2.5.3",
+    "pytket>=2.18.1",
+    "pytket-quantinuum[pecos]>=0.59.2",
+]
+
+[tool.uv]
+prerelease = "allow"
