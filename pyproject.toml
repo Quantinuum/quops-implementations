@@ -10,7 +10,7 @@ dependencies = [
 
 [dependency-groups]
 guppy = [
-    "guppylang>=1.0.1",
+    "guppylang==1.0.3",
     "networkx>=3.6.1",
     "pytket>=2.18.1",
     "tabulate>=0.10.0",
