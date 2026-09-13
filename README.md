@@ -12,10 +12,10 @@ toward quantum scientific utility. It quantifies the size of the largest
 computationally relevant quantum circuits a machine can execute successfully. By providing a common measure across
 different qubit technologies and physical- and logical-qubit architectures,
 QUOPS enables fair cross-platform comparisons and puts hardware capability in
-the context of the resources needed for useful quantum computation.
+the context of the resources needed for utility-scale challenge problems.
 
-The benchmark uses random circuits of varying width and size, with
-mirror-circuit experiments used to assess how reliably they can be executed.
+The benchmark uses random circuits of of independently variable width and "size" (approximately, the number of gates in the circuit), with
+mirror-circuit experiments used to efficiently determine whether or not they can be executed successfully.
 See the [paper](#accompanying-paper-and-experiments) for the full benchmark definition, methodology, and
 its application to assessing progress toward utility-scale challenge problems.
 
@@ -29,7 +29,7 @@ The paper is the reference for the benchmark definition, experimental protocols,
 and reported results. These notebooks are explanatory implementations, not an
 exact reproduction of every experiment in the paper. In particular, demonstration
 parameters and statistical procedures may differ from those used for the
-reported results. Estimating a device's QUOPS score requires the full statistical
+reported results. Notably, estimating a device's QUOPS score requires the full statistical
 procedure described in the paper, rather than simply testing individual circuit
 shapes.
 
