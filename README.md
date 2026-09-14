@@ -16,14 +16,12 @@ the context of the resources needed for utility-scale challenge problems.
 
 The benchmark uses random circuits of independently variable width and "size" (approximately, the number of gates in the circuit), with
 mirror-circuit experiments used to efficiently determine whether or not they can be executed successfully.
-See the [paper](#accompanying-paper-and-experiments) for the full benchmark definition, methodology, and
+See the paper for the full benchmark definition, methodology, and
 its application to assessing progress toward utility-scale challenge problems.
 
 ## Accompanying Paper and Experiments
 
-**Benchmarking the computational power of quantum computers**
-
-**Paper link: [To be added when the paper is available online.]**
+[Benchmarking the computational power of quantum computers](https://arxiv.org/abs/2609.12146)
 
 The paper is the reference for the benchmark definition, experimental protocols,
 and reported results. These notebooks are explanatory implementations, not an
